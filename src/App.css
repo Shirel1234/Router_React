@@ -1,4 +1,6 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -36,3 +38,14 @@
     transform: rotate(360deg);
   }
 }
+.link{
+padding: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color:#61dafb ;
+}
+
+
